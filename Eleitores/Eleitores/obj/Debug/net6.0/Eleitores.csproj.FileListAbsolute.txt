@@ -1,0 +1,15 @@
+C:\Users\Rafael\source\repos\Eleitores\Eleitores\bin\Debug\net6.0\Eleitores.exe
+C:\Users\Rafael\source\repos\Eleitores\Eleitores\bin\Debug\net6.0\Eleitores.deps.json
+C:\Users\Rafael\source\repos\Eleitores\Eleitores\bin\Debug\net6.0\Eleitores.runtimeconfig.json
+C:\Users\Rafael\source\repos\Eleitores\Eleitores\bin\Debug\net6.0\Eleitores.dll
+C:\Users\Rafael\source\repos\Eleitores\Eleitores\bin\Debug\net6.0\Eleitores.pdb
+C:\Users\Rafael\source\repos\Eleitores\Eleitores\obj\Debug\net6.0\Eleitores.csproj.AssemblyReference.cache
+C:\Users\Rafael\source\repos\Eleitores\Eleitores\obj\Debug\net6.0\Eleitores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafael\source\repos\Eleitores\Eleitores\obj\Debug\net6.0\Eleitores.AssemblyInfoInputs.cache
+C:\Users\Rafael\source\repos\Eleitores\Eleitores\obj\Debug\net6.0\Eleitores.AssemblyInfo.cs
+C:\Users\Rafael\source\repos\Eleitores\Eleitores\obj\Debug\net6.0\Eleitores.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\source\repos\Eleitores\Eleitores\obj\Debug\net6.0\Eleitores.dll
+C:\Users\Rafael\source\repos\Eleitores\Eleitores\obj\Debug\net6.0\refint\Eleitores.dll
+C:\Users\Rafael\source\repos\Eleitores\Eleitores\obj\Debug\net6.0\Eleitores.pdb
+C:\Users\Rafael\source\repos\Eleitores\Eleitores\obj\Debug\net6.0\Eleitores.genruntimeconfig.cache
+C:\Users\Rafael\source\repos\Eleitores\Eleitores\obj\Debug\net6.0\ref\Eleitores.dll

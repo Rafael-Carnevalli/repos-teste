@@ -1,0 +1,15 @@
+C:\Users\Rafael\source\repos\Multiplos\Multiplos\bin\Debug\net6.0\Multiplos.exe
+C:\Users\Rafael\source\repos\Multiplos\Multiplos\bin\Debug\net6.0\Multiplos.deps.json
+C:\Users\Rafael\source\repos\Multiplos\Multiplos\bin\Debug\net6.0\Multiplos.runtimeconfig.json
+C:\Users\Rafael\source\repos\Multiplos\Multiplos\bin\Debug\net6.0\Multiplos.dll
+C:\Users\Rafael\source\repos\Multiplos\Multiplos\bin\Debug\net6.0\Multiplos.pdb
+C:\Users\Rafael\source\repos\Multiplos\Multiplos\obj\Debug\net6.0\Multiplos.csproj.AssemblyReference.cache
+C:\Users\Rafael\source\repos\Multiplos\Multiplos\obj\Debug\net6.0\Multiplos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Rafael\source\repos\Multiplos\Multiplos\obj\Debug\net6.0\Multiplos.AssemblyInfoInputs.cache
+C:\Users\Rafael\source\repos\Multiplos\Multiplos\obj\Debug\net6.0\Multiplos.AssemblyInfo.cs
+C:\Users\Rafael\source\repos\Multiplos\Multiplos\obj\Debug\net6.0\Multiplos.csproj.CoreCompileInputs.cache
+C:\Users\Rafael\source\repos\Multiplos\Multiplos\obj\Debug\net6.0\Multiplos.dll
+C:\Users\Rafael\source\repos\Multiplos\Multiplos\obj\Debug\net6.0\refint\Multiplos.dll
+C:\Users\Rafael\source\repos\Multiplos\Multiplos\obj\Debug\net6.0\Multiplos.pdb
+C:\Users\Rafael\source\repos\Multiplos\Multiplos\obj\Debug\net6.0\Multiplos.genruntimeconfig.cache
+C:\Users\Rafael\source\repos\Multiplos\Multiplos\obj\Debug\net6.0\ref\Multiplos.dll
