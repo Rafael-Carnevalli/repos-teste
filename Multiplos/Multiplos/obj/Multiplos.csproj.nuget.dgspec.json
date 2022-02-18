@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rafael\\source\\repos\\Multiplos\\Multiplos\\Multiplos.csproj": {}
+    "C:\\Users\\Rafael\\Documents\\repos-teste\\Multiplos\\Multiplos\\Multiplos.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rafael\\source\\repos\\Multiplos\\Multiplos\\Multiplos.csproj": {
+    "C:\\Users\\Rafael\\Documents\\repos-teste\\Multiplos\\Multiplos\\Multiplos.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\source\\repos\\Multiplos\\Multiplos\\Multiplos.csproj",
+        "projectUniqueName": "C:\\Users\\Rafael\\Documents\\repos-teste\\Multiplos\\Multiplos\\Multiplos.csproj",
         "projectName": "Multiplos",
-        "projectPath": "C:\\Users\\Rafael\\source\\repos\\Multiplos\\Multiplos\\Multiplos.csproj",
+        "projectPath": "C:\\Users\\Rafael\\Documents\\repos-teste\\Multiplos\\Multiplos\\Multiplos.csproj",
         "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\source\\repos\\Multiplos\\Multiplos\\obj\\",
+        "outputPath": "C:\\Users\\Rafael\\Documents\\repos-teste\\Multiplos\\Multiplos\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",

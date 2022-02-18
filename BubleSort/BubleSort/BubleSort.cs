@@ -70,7 +70,7 @@ namespace BubleSort
             {
                 stListChave.Add(chave.chave.ToString());
             }
-            Console.WriteLine(string.Join(" - ", stListChave));
+            Console.WriteLine(string.Join(" | ", stListChave));
         }
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rafael\\source\\repos\\Fatorial\\Fatorial\\Fatorial.csproj": {}
+    "C:\\Users\\Rafael\\Documents\\repos-teste\\Fatorial\\Fatorial\\Fatorial.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rafael\\source\\repos\\Fatorial\\Fatorial\\Fatorial.csproj": {
+    "C:\\Users\\Rafael\\Documents\\repos-teste\\Fatorial\\Fatorial\\Fatorial.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\source\\repos\\Fatorial\\Fatorial\\Fatorial.csproj",
+        "projectUniqueName": "C:\\Users\\Rafael\\Documents\\repos-teste\\Fatorial\\Fatorial\\Fatorial.csproj",
         "projectName": "Fatorial",
-        "projectPath": "C:\\Users\\Rafael\\source\\repos\\Fatorial\\Fatorial\\Fatorial.csproj",
+        "projectPath": "C:\\Users\\Rafael\\Documents\\repos-teste\\Fatorial\\Fatorial\\Fatorial.csproj",
         "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\source\\repos\\Fatorial\\Fatorial\\obj\\",
+        "outputPath": "C:\\Users\\Rafael\\Documents\\repos-teste\\Fatorial\\Fatorial\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",

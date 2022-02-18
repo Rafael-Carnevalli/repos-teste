@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Rafael\\source\\repos\\BubleSort\\BubleSort\\BubleSort.csproj": {}
+    "C:\\Users\\Rafael\\Documents\\repos-teste\\BubleSort\\BubleSort\\BubleSort.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Rafael\\source\\repos\\BubleSort\\BubleSort\\BubleSort.csproj": {
+    "C:\\Users\\Rafael\\Documents\\repos-teste\\BubleSort\\BubleSort\\BubleSort.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Rafael\\source\\repos\\BubleSort\\BubleSort\\BubleSort.csproj",
+        "projectUniqueName": "C:\\Users\\Rafael\\Documents\\repos-teste\\BubleSort\\BubleSort\\BubleSort.csproj",
         "projectName": "BubleSort",
-        "projectPath": "C:\\Users\\Rafael\\source\\repos\\BubleSort\\BubleSort\\BubleSort.csproj",
+        "projectPath": "C:\\Users\\Rafael\\Documents\\repos-teste\\BubleSort\\BubleSort\\BubleSort.csproj",
         "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Rafael\\source\\repos\\BubleSort\\BubleSort\\obj\\",
+        "outputPath": "C:\\Users\\Rafael\\Documents\\repos-teste\\BubleSort\\BubleSort\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",

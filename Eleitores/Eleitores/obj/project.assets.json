@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Rafael\\source\\repos\\Eleitores\\Eleitores\\Eleitores.csproj",
+      "projectUniqueName": "C:\\Users\\Rafael\\Documents\\repos-teste\\Eleitores\\Eleitores\\Eleitores.csproj",
       "projectName": "Eleitores",
-      "projectPath": "C:\\Users\\Rafael\\source\\repos\\Eleitores\\Eleitores\\Eleitores.csproj",
+      "projectPath": "C:\\Users\\Rafael\\Documents\\repos-teste\\Eleitores\\Eleitores\\Eleitores.csproj",
       "packagesPath": "C:\\Users\\Rafael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Rafael\\source\\repos\\Eleitores\\Eleitores\\obj\\",
+      "outputPath": "C:\\Users\\Rafael\\Documents\\repos-teste\\Eleitores\\Eleitores\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Rafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
