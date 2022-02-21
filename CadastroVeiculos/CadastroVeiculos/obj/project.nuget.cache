@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tTSx0piQMlheGSOyAkNnvfSGjDlMlRYaciF6PWTb+xeFU7tb2wg3aBlYlUh+y9KIHmUoVXaoT3LccsAgnoHJXg==",
+  "dgSpecHash": "2yWFOXQJypM9x0Y6h9LhCnJ3CcxjoMxgtrEcbAbrkdKC+d6Kw39WSscCcXOVlLimyHZRkzquYGRVPuj75jx2ew==",
   "success": true,
   "projectFilePath": "C:\\Users\\Rafael\\Documents\\repos-teste\\CadastroVeiculos\\CadastroVeiculos\\CadastroVeiculos.csproj",
   "expectedPackageFiles": [
@@ -37,7 +37,6 @@
     "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\6.0.2\\microsoft.entityframeworkcore.abstractions.6.0.2.nupkg.sha512",
     "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\6.0.2\\microsoft.entityframeworkcore.analyzers.6.0.2.nupkg.sha512",
     "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.2\\microsoft.entityframeworkcore.design.6.0.2.nupkg.sha512",
-    "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.entityframeworkcore.inmemory\\6.0.2\\microsoft.entityframeworkcore.inmemory.6.0.2.nupkg.sha512",
     "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.2\\microsoft.entityframeworkcore.relational.6.0.2.nupkg.sha512",
     "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.2\\microsoft.entityframeworkcore.sqlserver.6.0.2.nupkg.sha512",
     "C:\\Users\\Rafael\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.2\\microsoft.entityframeworkcore.tools.6.0.2.nupkg.sha512",

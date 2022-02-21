@@ -8,7 +8,7 @@
         public int Ano { get; set; }
         public string? Descricao { get; set; }
         public bool Vendido { get; set; }
-        public DateTime Created { get; set; }
-        public DateTime Updated { get; set; }
+        public DateTime? Created { get; set; } = DateTime.Now;
+        public DateTime? Updated { get; set; } = DateTime.MinValue;
     }
 }

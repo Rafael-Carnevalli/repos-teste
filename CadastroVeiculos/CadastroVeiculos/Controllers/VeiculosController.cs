@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using CadastroVeiculos.Models;
+using CadastroVeiculos.Service;
 
 namespace CadastroVeiculos.Controllers
 {
@@ -23,18 +24,17 @@ namespace CadastroVeiculos.Controllers
 
         // GET: api/Veiculos
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<Veiculo>>> GetVeiculoItems()
+        public async Task<ActionResult<IEnumerable<Veiculo>>> GetVeiculoItems(string marca, string vendido, string created, string ano)
         {
-
-            return await _context.VeiculoItems.ToListAsync();
+            VeiculoService veiculoService = new VeiculoService(_context);
+            return Ok(await veiculoService.GetVeiculos(vendido, marca, created, ano));
         }
 
         // GET: api/Veiculos/5
         [HttpGet("{id}")]
-        public async Task<ActionResult<Veiculo>> GetVeiculo(long id, string marca = "", int ano = 0)
+        public async Task<ActionResult<Veiculo>> GetVeiculo(long id)
         {
             var veiculo = await _context.VeiculoItems.FindAsync(id);
-
             if (veiculo == null)
             {
                 return NotFound();
@@ -44,38 +44,15 @@ namespace CadastroVeiculos.Controllers
         }
 
         // PUT: api/Veiculos/5
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]
         public async Task<IActionResult> PutVeiculo(long id, Veiculo veiculo)
         {
-            if (id != veiculo.Id)
-            {
-                return BadRequest();
-            }
-
-            _context.Entry(veiculo).State = EntityState.Modified;
-
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (DbUpdateConcurrencyException)
-            {
-                if (!VeiculoExists(id))
-                {
-                    return NotFound();
-                }
-                else
-                {
-                    throw;
-                }
-            }
-
-            return NoContent();
+            VeiculoService veiculoService = new VeiculoService(_context);
+            var msg = await veiculoService.PutVeiculo(id, veiculo);
+            return msg == "" ? NoContent() : msg == "BadRequest" ? BadRequest() : NotFound();
         }
 
         // POST: api/Veiculos
-        // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPost]
         public async Task<ActionResult<Veiculo>> PostVeiculo(Veiculo veiculo)
         {
@@ -89,21 +66,8 @@ namespace CadastroVeiculos.Controllers
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteVeiculo(long id)
         {
-            var veiculo = await _context.VeiculoItems.FindAsync(id);
-            if (veiculo == null)
-            {
-                return NotFound();
-            }
-
-            _context.VeiculoItems.Remove(veiculo);
-            await _context.SaveChangesAsync();
-
-            return NoContent();
-        }
-
-        private bool VeiculoExists(long id)
-        {
-            return _context.VeiculoItems.Any(e => e.Id == id);
+            VeiculoService veiculoService = new VeiculoService(_context);
+            return await veiculoService.DeleteVeiculo(id) == "Not Found" ? NotFound() : NoContent();
         }
     }
 }

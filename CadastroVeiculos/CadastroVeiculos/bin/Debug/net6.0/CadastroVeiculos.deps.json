@@ -8,7 +8,8 @@
     ".NETCoreApp,Version=v6.0": {
       "CadastroVeiculos/1.0.0": {
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.InMemory": "6.0.2",
+          "Microsoft.EntityFrameworkCore": "6.0.2",
+          "Microsoft.EntityFrameworkCore.Design": "6.0.2",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.2",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.2",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.2",
@@ -901,17 +902,6 @@
         },
         "runtime": {
           "lib/net6.0/Microsoft.EntityFrameworkCore.Design.dll": {
-            "assemblyVersion": "6.0.2.0",
-            "fileVersion": "6.0.222.6404"
-          }
-        }
-      },
-      "Microsoft.EntityFrameworkCore.InMemory/6.0.2": {
-        "dependencies": {
-          "Microsoft.EntityFrameworkCore": "6.0.2"
-        },
-        "runtime": {
-          "lib/net6.0/Microsoft.EntityFrameworkCore.InMemory.dll": {
             "assemblyVersion": "6.0.2.0",
             "fileVersion": "6.0.222.6404"
           }
@@ -2503,13 +2493,6 @@
       "sha512": "sha512-U5nqbIKJ8LQF/T1BzMjL35mwhTPsEUsjLhX+GjPQcrKaavv6oczCdznhr7VbEmCmGSjQjSarNqXkSCneUX2mXA==",
       "path": "microsoft.entityframeworkcore.design/6.0.2",
       "hashPath": "microsoft.entityframeworkcore.design.6.0.2.nupkg.sha512"
-    },
-    "Microsoft.EntityFrameworkCore.InMemory/6.0.2": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-Tp0ZXuLFlgyRDRVPnyjjgCnDR/TA+UJDeVM1XejN5G3sLfsDdlPW8cC+Eoi7sHYOWd1dRXGRFUj0lurnz5CObA==",
-      "path": "microsoft.entityframeworkcore.inmemory/6.0.2",
-      "hashPath": "microsoft.entityframeworkcore.inmemory.6.0.2.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/6.0.2": {
       "type": "package",
