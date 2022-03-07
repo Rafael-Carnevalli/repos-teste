@@ -11,34 +11,36 @@ Quarto teste - Multiplos, é aceito somente um número natural positivo, somando
 Quinto teste - Cadastro de Veículos
 
 
+Criei uma api rest e configurei em um servidor, podendo assim utilizar as rotas abaixo para testar a api
 
-Get - https://localhost:7166/api/Veiculos/{id} - Retorna os detalhes do veículo
 
-Get - https://localhost:7166/api/Veiculos?Vendido=false - Retorna os veículos não vendidos
+Get - http://34.151.235.44/veiculos/{id} - Retorna os detalhes do veículo
 
-Get - https://localhost:7166/api/Veiculos?created=2022-02-20 - Retorna os veículos por data de cadastro
+Get - http://34.151.235.44/veiculos?vendido=false - Retorna os veículos não vendidos
 
-Get - https://localhost:7166/api/Veiculos?ano=2016 - Retorna os veículos por ano de fabricação
+Get - http://34.151.235.44/veiculos?created_at=2022-03-07 - Retorna os veículos por data de cadastro
 
-Get - https://localhost:7166/api/Veiculos?marca=Fiat - Retorna os veículos por marca
+Get - http://34.151.235.44/veiculos?ano=2016 - Retorna os veículos por ano de fabricação
+
+Get - http://34.151.235.44/veiculos?marca=Fiat - Retorna os veículos por marca
 (as marcas ainda não estão consistentes, uma forma para isso ser alcançado é criando uma tabela de marcas no banco de dados e comparar as marcas passadas como parametros em uma consulta simples a essa tabela, existindo a marca realiza um join no sql da consulta para buscar as marcas)
 
 
-Get - https://localhost:7166/api/Veiculos - Retorna uma lista com todos os veículos inseridos
+Get - http://34.151.235.44/veiculos - Retorna uma lista com todos os veículos inseridos
 
-Put - https://localhost:7166/api/Veiculos/{id} - Atualiza os dados do veículo
+Put - http://34.151.235.44/veiculos/{id} - Atualiza os dados do veículo
 
-Delete - https://localhost:7166/api/Veiculos/{id} - Remove o veículo 
+Delete - http://34.151.235.44/veiculos/{id} - Remove o veículo 
 
-Post - https://localhost:7166/api/Veiculos - insere um veículo
+Post - http://34.151.235.44/veiculos - insere um veículo
+
 Exemplo:
-{	
-	"nomeVeiculo":"Palio",
-	"Marca":"Fiat",
-	"Ano":2014,
-	"Descricao":"Popular",
-	"Vendido":true,
-	"Created":"2012-03-19T07:22Z",
-	"Update": "0000-00-00T00:00Z"
+{
+	"veiculo": "Uno",
+	"marca": "Fiat",
+	"ano" : 2014,
+	"descricao": "Popular",
+	"vendido": false
 }
+
 (A mesma forma para o cadastro de veículos, que ainda é possível cadastrar marcas inconsistentes)
