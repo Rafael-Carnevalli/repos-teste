@@ -11,7 +11,7 @@ Quarto teste - Multiplos, é aceito somente um número natural positivo, somando
 Quinto teste - Cadastro de Veículos
 
 
-Criei uma api rest e configurei em um servidor, podendo assim utilizar as rotas abaixo para testar a api
+Criei uma api rest com node.js e configurei em um servidor, podendo assim utilizar as rotas abaixo para testar a api
 
 
 Get - http://34.151.235.44/veiculos/{id} - Retorna os detalhes do veículo
