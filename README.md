@@ -8,11 +8,23 @@ Terceiro teste - Fatorial, é aceito somente um número natural igual a zero(0) 
 
 Quarto teste - Multiplos, é aceito somente um número natural positivo, somando os múltiplos de 3 e 5.
 
-Quinto teste - Cadastro de Veículos
 
 
-Criei uma api rest com node.js e configurei em um servidor, podendo assim utilizar as rotas abaixo para testar a api
 
+
+Quinto teste - API_NODE está a apirest e front_Consumir_Api está o front (ainda não concluído)
+
+
+
+
+
+O Front ainda não coloquei no servidor, pois ainda não gerei um domínio para executa-lo no mesmo, atualmente é possível cadastrar, editar e visualizar todos os veículos cadastrados, faltando pesquisar por um filtro, e o nome das marcas ainda não está consistente.
+
+
+Criei uma api rest com node.js e configurei em um servidor http://34.151.235.44, podendo assim utilizar as rotas abaixo para testar a api
+
+
+EXEMPLOS das chamadas das rotas:
 
 Get - http://34.151.235.44/veiculos/{id} - Retorna os detalhes do veículo
 
@@ -23,7 +35,7 @@ Get - http://34.151.235.44/veiculos?created_at=2022-03-07 - Retorna os veículos
 Get - http://34.151.235.44/veiculos?ano=2016 - Retorna os veículos por ano de fabricação
 
 Get - http://34.151.235.44/veiculos?marca=Fiat - Retorna os veículos por marca
-(as marcas ainda não estão consistentes, uma forma para isso ser alcançado é criando uma tabela de marcas no banco de dados e comparar as marcas passadas como parametros em uma consulta simples a essa tabela, existindo a marca realiza um join no sql da consulta para buscar as marcas)
+(as marcas ainda não estão consistentes, uma forma para isso ser alcançado é criando uma tabela de marcas no banco de dados e comparar as marcas passadas como parametros em uma consulta simples a essa tabela, então, se existir a marca realiza um join no sql da consulta com a tabela de marcas e busca ou adiciona um novo veículo).
 
 
 Get - http://34.151.235.44/veiculos - Retorna uma lista com todos os veículos inseridos
